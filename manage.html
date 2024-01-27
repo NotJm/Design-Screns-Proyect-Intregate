@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.manage.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <img src="eggs-removebg-preview.png" alt="logo" width="64" height="64">
+            <h1>Incubadora</h1>
+        </div>
+        <div class="container-manage-form">
+            <h2>Gestion de Proyectos</h2>
+            <form action="#" method="post" class="container-form">
+                <div>
+                    <label for="nameproyect">Nombre del proyecto</label>
+                    <input type="text" name="nameproyect">
+                </div>
+                <div>
+                    <label for="date">Fecha de inicio</label>
+                    <input type="date" name="date">
+                </div>
+                <div>
+                    <label for="state">Estado Actual</label>
+                    <input type="text" name="state">
+                </div>
+                <div class="container-button">
+                    <button class="button">
+                        Agregar
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="container-summary">
+            <details open>
+                <summary>
+                    Lista de Proyectos
+                </summary>
+                <ul>
+                    <li>Proyecto 1 - En curso</li>
+                    <li>Proyecto 2 - Finalizado</li>
+                </ul>
+            </details>
+        </div>
+    </main>
+</body>
+
+</html>
